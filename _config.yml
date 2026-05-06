@@ -1,0 +1,81 @@
+# Site settings
+title: "Lab Name"
+tagline: "A research group at University Name"
+description: >-
+  We study [research focus] at the intersection of [field A] and [field B].
+  Our group develops new methods and tools for [specific problems].
+url: "https://username.github.io"
+baseurl: "" # for project pages, set to "/repo-name"
+
+# Author / PI
+pi:
+  name: "Dr. Principal Investigator"
+  title: "Associate Professor"
+  email: "pi@university.edu"
+  office: "Building 100, Room 200"
+  department: "Department of X"
+  university: "University Name"
+
+# Social / external
+github_username: "username"
+twitter_username: ""
+google_scholar: "https://scholar.google.com/citations?user=XXXX"
+orcid: ""
+
+# Build
+markdown: kramdown
+highlighter: rouge
+permalink: /:collection/:path/
+
+# Collections
+collections:
+  team:
+    output: true
+    permalink: /team/:path/
+  publications:
+    output: false
+  projects:
+    output: true
+    permalink: /research/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "person"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "teaching"
+    values:
+      layout: "teaching"
+
+# Pagination
+paginate: 5
+paginate_path: "/news/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

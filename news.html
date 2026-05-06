@@ -1,0 +1,27 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Updates</span>
+    <h1>News</h1>
+    <p class="lede">Lab updates, publication announcements, conference news, and student milestones.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {% for post in site.posts %}
+      <div class="news-item">
+        <div class="news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <div class="news-content">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Projects</span>
+    <h1>Research</h1>
+    <p class="lede">Active threads of work across the lab. Each project links to current questions, papers, and code.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2">
+      {% for proj in site.projects %}
+        <a href="{{ proj.url | relative_url }}" class="card" style="background-image:none;display:block;">
+          <div class="card-meta">{{ proj.area | default: "Research" }}</div>
+          <h3>{{ proj.title }}</h3>
+          <p>{{ proj.lede | default: proj.excerpt | strip_html | truncatewords: 32 }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

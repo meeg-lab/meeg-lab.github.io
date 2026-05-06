@@ -1,0 +1,40 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Bibliography</span>
+    <h1>Publications</h1>
+    <p class="lede">Peer-reviewed articles, preprints, and selected talks. Names underlined in <span style="text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px;">orange</span> denote lab members.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {% assign pubs = site.data.publications | sort: "year" | reverse %}
+    {% assign years = pubs | map: "year" | uniq %}
+
+    {% for y in years %}
+      <h2 style="margin-top:2.5rem; font-family: var(--font-mono); font-size: 1rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent);">{{ y }}</h2>
+      {% assign year_pubs = pubs | where: "year", y %}
+      {% for pub in year_pubs %}
+        <div class="pub">
+          <div class="pub-year">[{{ forloop.index }}]</div>
+          <div>
+            <h3 class="pub-title">{{ pub.title }}</h3>
+            <p class="pub-authors">{{ pub.authors }}</p>
+            <p class="pub-venue">{{ pub.venue }}</p>
+            {% if pub.links %}
+            <div class="pub-links">
+              {% for link in pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>

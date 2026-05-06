@@ -1,0 +1,41 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+
+<header class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Bioinformatics & Biostatistics</span>
+    <h1>Teaching resources</h1>
+    <p class="lede">Course notes, tutorials, and open materials we use in our classes and lab. Free to use, share, and adapt — citations welcome.</p>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {% assign kinds = site.teaching | map: "kind" | uniq %}
+    {% for kind in kinds %}
+      {% assign group = site.teaching | where: "kind", kind %}
+      <h2 style="margin-top:2.5rem;">{{ kind }}</h2>
+      <div class="grid grid-2">
+        {% for item in group %}
+          <a href="{{ item.url | relative_url }}" class="card" style="background-image:none;display:block;">
+            <div class="card-meta">{% if item.term %}{{ item.term }} · {% endif %}{{ item.level | default: "Open material" }}</div>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.lede | default: item.excerpt | strip_html | truncatewords: 30 }}</p>
+          </a>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="prose">
+      <h2>Using these materials</h2>
+      <p>Everything here is released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> unless otherwise noted. Code is released under <a href="https://opensource.org/licenses/MIT">MIT</a>. If you find errors or have suggestions, open an issue on <a href="https://github.com/{{ site.github_username }}">our GitHub</a> or email us.</p>
+    </div>
+  </div>
+</section>

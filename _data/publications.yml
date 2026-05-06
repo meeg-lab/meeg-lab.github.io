@@ -1,0 +1,45 @@
+- title: "Latent variable models for high-dimensional single-cell data"
+  authors: "Smith, A., Lee, J., and PI Lastname"
+  venue: "Nature Methods, 22(4), 511–520"
+  year: 2025
+  links:
+    - { label: "PDF", url: "#" }
+    - { label: "Code", url: "https://github.com/" }
+    - { label: "DOI", url: "#" }
+
+- title: "A nonparametric framework for biomarker discovery in observational cohorts"
+  authors: "Lee, J. and PI Lastname"
+  venue: "Journal of the American Statistical Association, in press"
+  year: 2025
+  links:
+    - { label: "Preprint", url: "#" }
+
+- title: "Scalable inference for hierarchical Gaussian processes"
+  authors: "PI Lastname, Chen, R., and Park, S."
+  venue: "Bayesian Analysis, 19(2), 233–268"
+  year: 2024
+  links:
+    - { label: "PDF", url: "#" }
+    - { label: "DOI", url: "#" }
+
+- title: "Open-source pipelines for reproducible RNA-seq teaching"
+  authors: "Park, S., Smith, A., and PI Lastname"
+  venue: "PLOS Computational Biology, 20(8)"
+  year: 2024
+  links:
+    - { label: "Open access", url: "#" }
+    - { label: "Code", url: "https://github.com/" }
+
+- title: "Causal inference under interference: a review"
+  authors: "PI Lastname"
+  venue: "Annual Review of Statistics, 11, 89–117"
+  year: 2024
+  links:
+    - { label: "PDF", url: "#" }
+
+- title: "Variational methods for graph-structured priors"
+  authors: "Chen, R. and PI Lastname"
+  venue: "Proceedings of NeurIPS 2023"
+  year: 2023
+  links:
+    - { label: "Paper", url: "#" }

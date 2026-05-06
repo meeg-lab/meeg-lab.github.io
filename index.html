@@ -1,0 +1,120 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">{{ site.pi.department }} · {{ site.pi.university }}</span>
+        <h1>We study <span class="accent">the patterns</span> of complex biological systems<span class="accent">.</span></h1>
+      </div>
+      <div>
+        <p class="lede">{{ site.description }}</p>
+        <div class="hero-meta">
+          <span>Est. 2020</span>
+          <span>{{ site.pi.university }}</span>
+          <span>PI: {{ site.pi.name }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Research areas -->
+<section class="section">
+  <div class="wrap">
+    <div class="split">
+      <div class="label">
+        <span class="eyebrow">01 · Research</span>
+        <h2>What we work on</h2>
+      </div>
+      <div>
+        <div class="grid grid-2">
+          {% assign featured = site.projects | where: "featured", true %}
+          {% if featured.size == 0 %}{% assign featured = site.projects %}{% endif %}
+          {% for proj in featured limit: 4 %}
+            <a href="{{ proj.url | relative_url }}" class="card" style="background-image: none; display: block;">
+              <div class="card-meta">{{ proj.area | default: "Research" }}</div>
+              <h3>{{ proj.title }}</h3>
+              <p>{{ proj.lede | default: proj.excerpt | strip_html | truncatewords: 28 }}</p>
+            </a>
+          {% endfor %}
+        </div>
+        <p style="margin-top:2.5rem;"><a href="{{ '/research/' | relative_url }}" class="btn">All research →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Recent publications -->
+<section class="section">
+  <div class="wrap">
+    <div class="split">
+      <div class="label">
+        <span class="eyebrow">02 · Publications</span>
+        <h2>Recent work</h2>
+      </div>
+      <div>
+        {% assign pubs = site.data.publications | sort: "year" | reverse %}
+        {% for pub in pubs limit: 4 %}
+          <div class="pub">
+            <div class="pub-year">{{ pub.year }}</div>
+            <div>
+              <h3 class="pub-title">{{ pub.title }}</h3>
+              <p class="pub-authors">{{ pub.authors }}</p>
+              <p class="pub-venue">{{ pub.venue }}</p>
+              {% if pub.links %}
+              <div class="pub-links">
+                {% for link in pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+        <p style="margin-top:2rem;"><a href="{{ '/publications/' | relative_url }}" class="btn btn-ghost">Full publication list →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- News -->
+<section class="section">
+  <div class="wrap">
+    <div class="split">
+      <div class="label">
+        <span class="eyebrow">03 · News</span>
+        <h2>Lab updates</h2>
+      </div>
+      <div>
+        {% for post in site.posts limit: 4 %}
+          <div class="news-item">
+            <div class="news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+            <div class="news-content">
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            </div>
+          </div>
+        {% endfor %}
+        <p style="margin-top:2rem;"><a href="{{ '/news/' | relative_url }}" class="btn btn-ghost">All news →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Join -->
+<section class="section">
+  <div class="wrap">
+    <div class="split">
+      <div class="label">
+        <span class="eyebrow">04 · Join</span>
+        <h2>Work with us</h2>
+      </div>
+      <div class="prose">
+        <p>We welcome curious students and researchers. Prospective PhD students should apply through the {{ site.pi.department }} graduate program. Postdocs and undergraduates: email {{ site.pi.name }} with a CV and a short note on which of our projects interests you.</p>
+        <p><a href="{{ '/contact/' | relative_url }}" class="btn">Get in touch</a></p>
+      </div>
+    </div>
+  </div>
+</section>
