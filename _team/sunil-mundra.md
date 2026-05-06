@@ -5,7 +5,7 @@ subtitle: "Assistant Professor"
 tagline: "Microbial ecologist studying how environmental change reshapes ecosystem functioning."
 email: "sunilmundra@uaeu.ac.ae"
 twitter: "msunilmundra"
-photo: "/assets/images/team/sunil.jpg"
+photo: "/assets/images/sunil.jpg"
 order: 1
 ---
 
