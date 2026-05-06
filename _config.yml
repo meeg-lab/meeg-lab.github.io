@@ -1,6 +1,10 @@
 # Site settings
 title: "MEEG Lab"
+<<<<<<< HEAD
 tagline: "Microbial Ecology & Environmental Genomics"
+=======
+tagline: "Microbial Ecology and Environmental Genomics (MEEG) lab"
+>>>>>>> fef7c117186484c90c95601fe0b7e192d948e395
 description: >-
   We study how microbiota shape environmental, plant, animal, and human health,
   with a focus on arid ecosystems, mycorrhizal symbiosis, and the response of
