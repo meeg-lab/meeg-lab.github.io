@@ -3,33 +3,29 @@
     <div class="footer-grid">
       <div>
         <h4>{{ site.title }}</h4>
-        <p style="max-width:38ch; color: var(--ground-warm); opacity: 0.85;">
-          {{ site.description }}
-        </p>
+        <p class="footer-desc">{{ site.description }}</p>
       </div>
       <div>
         <h4>Find us</h4>
         <ul>
-          <li>{{ site.pi.department }}</li>
-          <li>{{ site.pi.university }}</li>
-          <li>{{ site.pi.office }}</li>
-          <li><a href="mailto:{{ site.pi.email }}">{{ site.pi.email }}</a></li>
+          <li>{{ site.pi_department }}</li>
+          <li>{{ site.pi_university }}</li>
+          <li>{{ site.pi_office }}</li>
+          <li><a href="mailto:{{ site.pi_email }}">{{ site.pi_email }}</a></li>
         </ul>
       </div>
       <div>
         <h4>Elsewhere</h4>
         <ul>
           {% if site.github_username %}<li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>{% endif %}
-          {% if site.google_scholar %}<li><a href="{{ site.google_scholar }}">Google Scholar</a></li>{% endif %}
           {% if site.twitter_username %}<li><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>{% endif %}
-          {% if site.orcid %}<li><a href="{{ site.orcid }}">ORCID</a></li>{% endif %}
           <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© {{ 'now' | date: "%Y" }} {{ site.title }}</span>
-      <span>Built with Jekyll · Hosted on GitHub Pages</span>
+      <span>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</span>
+      <span>Built with Jekyll &middot; Hosted on GitHub Pages</span>
     </div>
   </div>
 </footer>

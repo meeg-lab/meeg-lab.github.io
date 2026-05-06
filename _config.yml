@@ -1,45 +1,28 @@
-# Site settings
 title: "MEEG Lab"
-<<<<<<< HEAD
-tagline: "Microbial Ecology & Environmental Genomics"
-=======
-tagline: "Microbial Ecology and Environmental Genomics (MEEG) lab"
->>>>>>> fef7c117186484c90c95601fe0b7e192d948e395
-description: >-
-  We study how microbiota shape environmental, plant, animal, and human health,
-  with a focus on arid ecosystems, mycorrhizal symbiosis, and the response of
-  microbial communities to global change.
+tagline: "Microbial Ecology and Environmental Genomics Lab"
+description: "We study how microbiota shape environmental, plant, animal, and human health, with a focus on arid ecosystems, mycorrhizal symbiosis, and the response of microbial communities to global change."
 url: "https://meeg-lab.github.io"
 baseurl: ""
 
-# Author / PI
-pi:
-  name: "Dr. Sunil Mundra"
-  title: "Assistant Professor"
-  email: "sunilmundra@uaeu.ac.ae"
-  office: "Department of Biology, College of Science"
-  department: "Department of Biology"
-  university: "United Arab Emirates University"
-  phone: "+971-(3)-713-6341"
+pi_name: "Dr. Sunil Mundra"
+pi_title: "Assistant Professor"
+pi_email: "sunilmundra@uaeu.ac.ae"
+pi_office: "Department of Biology, College of Science"
+pi_department: "Department of Biology"
+pi_university: "United Arab Emirates University"
+pi_phone: "+971-(3)-713-6341"
 
-# Social / external
 github_username: "meeg-lab"
 twitter_username: "msunilmundra"
-google_scholar: ""
-orcid: ""
 
-# Build
 markdown: kramdown
 highlighter: rouge
 permalink: /:collection/:path/
 
-# Collections
 collections:
   team:
     output: true
     permalink: /team/:path/
-  publications:
-    output: false
   projects:
     output: true
     permalink: /research/:path/

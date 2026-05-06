@@ -1,6 +1,17 @@
 ---
 layout: default
 ---
+{% if page.hero_photo %}
+<section class="project-hero">
+  <div class="project-hero-bg" style="background-image: url('{{ page.hero_photo | relative_url }}');"></div>
+  <div class="project-hero-overlay"></div>
+  <div class="wrap project-hero-content">
+    <span class="hero-eyebrow">{{ page.area | default: "Research project" }}</span>
+    <h1 class="hero-title">{{ page.title }}</h1>
+    {% if page.lede %}<p class="hero-sub">{{ page.lede }}</p>{% endif %}
+  </div>
+</section>
+{% else %}
 <header class="page-header">
   <div class="wrap">
     <span class="eyebrow">{{ page.area | default: "Research project" }}</span>
@@ -8,12 +19,25 @@ layout: default
     {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
   </div>
 </header>
+{% endif %}
 
 <section class="section">
   <div class="wrap">
     <div class="prose">
       {{ content }}
     </div>
-    <p style="margin-top:3rem;"><a href="{{ '/research/' | relative_url }}" class="btn btn-ghost">← All projects</a></p>
+
+    {% if page.gallery %}
+    <div class="project-gallery">
+      {% for photo in page.gallery %}
+        <figure class="project-gallery-item">
+          <img src="{{ photo.src | relative_url }}" alt="{{ photo.caption | default: page.title }}">
+          {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <p class="cta-row"><a href="{{ '/research/' | relative_url }}" class="btn btn-ghost">All projects</a></p>
   </div>
 </section>

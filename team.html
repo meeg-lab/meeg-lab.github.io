@@ -4,39 +4,41 @@ title: Team
 permalink: /team/
 ---
 
+<section class="team-hero">
+  <div class="team-hero-photo" style="background-image: url('{{ '/assets/images/team-group.jpg' | relative_url }}');"></div>
+</section>
+
 <header class="page-header">
   <div class="wrap">
     <span class="eyebrow">People</span>
-    <h1>The team</h1>
-    <p class="lede">A small group of researchers and students working across statistics, computation, and biology.</p>
+    <h1>The MEEG team</h1>
+    <p class="lede">A small group of researchers and students working across microbial ecology, genomics, and environmental health.</p>
   </div>
 </header>
 
 <section class="section">
   <div class="wrap">
-    {% assign roles = "PI|Postdoc|PhD Student|Master's Student|Undergraduate|Lab Manager|Alumni" | split: "|" %}
+    {% assign roles = "PI|Postdoc|PhD Student|Master's Student|Research Assistant|Undergraduate|Lab Manager|Alumni" | split: "|" %}
     {% for role in roles %}
       {% assign people = site.team | where: "role", role %}
       {% if people.size > 0 %}
-        <h2 style="margin-top:2.5rem;">{{ role }}{% if people.size > 1 and role != "Alumni" %}s{% endif %}</h2>
-        {% for p in people %}
-          <div class="person">
-            <div class="avatar">
-              {% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" style="width:100%;height:100%;object-fit:cover;">{% else %}{{ p.name | slice: 0, 1 }}{% endif %}
-            </div>
-            <div>
-              <h3><a href="{{ p.url | relative_url }}" style="background:none;">{{ p.name }}</a></h3>
-              <div class="role">{{ p.role }}{% if p.subtitle %} · {{ p.subtitle }}{% endif %}</div>
-              {% if p.tagline %}<p>{{ p.tagline }}</p>{% endif %}
-              <div class="links">
-                {% if p.email %}<a href="mailto:{{ p.email }}">email</a>{% endif %}
-                {% if p.scholar %}<a href="{{ p.scholar }}">scholar</a>{% endif %}
-                {% if p.github %}<a href="https://github.com/{{ p.github }}">github</a>{% endif %}
-                {% if p.website %}<a href="{{ p.website }}">site</a>{% endif %}
+        <h2 class="role-heading">{{ role }}{% if people.size > 1 and role != "Alumni" %}s{% endif %}</h2>
+        <div class="team-grid">
+          {% for p in people %}
+            <a href="{{ p.url | relative_url }}" class="team-card">
+              <div class="team-card-photo">
+                {% if p.photo %}
+                  <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
+                {% else %}
+                  <span class="team-card-initial">{{ p.name | slice: 0, 1 }}</span>
+                {% endif %}
               </div>
-            </div>
-          </div>
-        {% endfor %}
+              <h3 class="team-card-name">{{ p.name }}</h3>
+              <p class="team-card-role">{{ p.role }}{% if p.subtitle %} &middot; {{ p.subtitle }}{% endif %}</p>
+              {% if p.tagline %}<p class="team-card-tag">{{ p.tagline }}</p>{% endif %}
+            </a>
+          {% endfor %}
+        </div>
       {% endif %}
     {% endfor %}
   </div>

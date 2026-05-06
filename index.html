@@ -3,82 +3,106 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-  <div class="wrap">
-    <div class="hero-grid">
-      <div>
-        <span class="eyebrow">Department of Biology · United Arab Emirates University</span>
-        <h1>Reading the <span class="accent">unseen biology</span> of arid ecosystems<span class="accent">.</span></h1>
-      </div>
-      <div>
-        <p class="lede">The MEEG lab studies how microbiota shape environmental, plant, animal, and human health — and how they hold ecosystems together under heat, salinity, and global change.</p>
-        <div class="hero-meta">
-          <span>Al Ain, UAE</span>
-          <span>PI: Dr. Sunil Mundra</span>
-          <span>Microbial ecology · Multi-omics</span>
-        </div>
-      </div>
+<section class="hero-photo">
+  <div class="hero-photo-bg" style="background-image: url('{{ '/assets/images/hero.jpg' | relative_url }}');"></div>
+  <div class="hero-photo-overlay"></div>
+  <div class="wrap hero-photo-content">
+    <span class="hero-eyebrow">Department of Biology &middot; United Arab Emirates University</span>
+    <h1 class="hero-title">Microbial Ecology &amp; Environmental Genomics Lab</h1>
+    <p class="hero-sub">Reading the unseen biology of arid ecosystems &mdash; from desert soils to camel guts, mangrove sediments to wastewater streams.</p>
+    <div class="hero-meta">
+      <span>Al Ain, UAE</span>
+      <span>PI: Dr. Sunil Mundra</span>
     </div>
   </div>
 </section>
 
-<!-- Quote -->
-<section class="section" style="text-align:center; padding-top: clamp(2rem,5vw,4rem); padding-bottom: clamp(2rem,5vw,4rem);">
+<section class="quote-section">
   <div class="wrap">
-    <p style="font-family: var(--font-display); font-size: clamp(1.4rem, 2.6vw, 2rem); font-style: italic; font-weight: 350; line-height: 1.4; max-width: 28ch; margin: 0 auto; color: var(--ink-soft);">
+    <p class="big-quote">
       &ldquo;In a single gram of desert soil lives a community more diverse than the forest above it &mdash; and far less understood.&rdquo;
     </p>
   </div>
 </section>
 
-<!-- Research themes -->
 <section class="section">
   <div class="wrap">
-    <div class="split">
-      <div class="label">
-        <span class="eyebrow">01 &middot; Research themes</span>
-        <h2>What we study</h2>
-      </div>
-      <div>
-        <div class="grid grid-2">
-          <a href="{{ '/research/' | relative_url }}" class="card" style="background-image:none;display:block;">
-            <div class="card-meta">Arid agroecosystems</div>
-            <h3>Date palm &amp; desert microbiomes</h3>
-            <p>Mycorrhizal and endophyte interactions, soil-plant-microbe networks, and the truffle&ndash;<em>Helianthemum</em> symbiosis under arid conditions.</p>
-          </a>
-          <a href="{{ '/research/' | relative_url }}" class="card" style="background-image:none;display:block;">
-            <div class="card-meta">Animal microbiomes</div>
-            <h3>Camel gut &amp; milk microbiome</h3>
-            <p>Functional analysis of microbial communities in camels &mdash; a uniquely adapted desert host &mdash; and what they reveal about resilience and nutrition.</p>
-          </a>
-          <a href="{{ '/research/' | relative_url }}" class="card" style="background-image:none;display:block;">
-            <div class="card-meta">Climate &amp; change</div>
-            <h3>Salinity, drought &amp; belowground carbon</h3>
-            <p>How global change pressures &mdash; especially salinity and drought &mdash; reshape belowground microbial communities and carbon dynamics.</p>
-          </a>
-          <a href="{{ '/research/' | relative_url }}" class="card" style="background-image:none;display:block;">
-            <div class="card-meta">One Health</div>
-            <h3>Wastewater &amp; antimicrobial resistance</h3>
-            <p>Sewage microbiomes across Abu Dhabi as a window into the emergence and spread of AMR genes from different wastewater sources.</p>
-          </a>
-          <a href="{{ '/research/' | relative_url }}" class="card" style="background-image:none;display:block;">
-            <div class="card-meta">Cross-biome</div>
-            <h3>Forests, mangroves &amp; polar soils</h3>
-            <p>Comparative work spanning arid, forested, mangrove, and Arctic biomes to ask what microbial life does for ecosystems everywhere.</p>
-          </a>
-          <a href="{{ '/research/' | relative_url }}" class="card" style="background-image:none;display:block;">
-            <div class="card-meta">Methods</div>
-            <h3>Multi-omics in the field</h3>
-            <p>Metabarcoding, metatranscriptomics, metaproteomics, and whole-genome sequencing &mdash; bringing genomics-scale tools to ecological questions.</p>
-          </a>
+    <div class="section-header-center">
+      <span class="eyebrow">01 &middot; Research themes</span>
+      <h2>What we study</h2>
+      <p class="lede center">Four threads of work running through arid ecosystems, animal hosts, and the microbial worlds that bind them together.</p>
+    </div>
+
+    <div class="theme-grid">
+      <a href="{{ '/research/date-palm/' | relative_url }}" class="theme-card">
+        <div class="theme-card-bg" style="background-image: url('{{ '/assets/images/theme-date-palm.jpg' | relative_url }}');"></div>
+        <div class="theme-card-overlay"></div>
+        <div class="theme-card-content">
+          <span class="theme-card-meta">Arid agroecosystems</span>
+          <h3 class="theme-card-title">Date Palm</h3>
+          <p class="theme-card-desc">Mycorrhizal and endophyte interactions in date palm rhizospheres under saline irrigation.</p>
+          <span class="theme-card-link">Explore &rarr;</span>
         </div>
-        <p style="margin-top:2.5rem;"><a href="{{ '/research/' | relative_url }}" class="btn">All research &rarr;</a></p>
-      </div>
+      </a>
+
+      <a href="{{ '/research/mangroves/' | relative_url }}" class="theme-card">
+        <div class="theme-card-bg" style="background-image: url('{{ '/assets/images/theme-mangroves.jpg' | relative_url }}');"></div>
+        <div class="theme-card-overlay"></div>
+        <div class="theme-card-content">
+          <span class="theme-card-meta">Coastal ecosystems</span>
+          <h3 class="theme-card-title">Mangroves &amp; Wetlands</h3>
+          <p class="theme-card-desc">Microbial communities of UAE mangrove sediments and their role in coastal ecosystem function.</p>
+          <span class="theme-card-link">Explore &rarr;</span>
+        </div>
+      </a>
+
+      <a href="{{ '/research/antibiotic-resistance/' | relative_url }}" class="theme-card">
+        <div class="theme-card-bg" style="background-image: url('{{ '/assets/images/theme-amr.jpg' | relative_url }}');"></div>
+        <div class="theme-card-overlay"></div>
+        <div class="theme-card-content">
+          <span class="theme-card-meta">One Health</span>
+          <h3 class="theme-card-title">Antibiotic Resistance</h3>
+          <p class="theme-card-desc">Tracking AMR genes through wastewater microbiomes across Abu Dhabi.</p>
+          <span class="theme-card-link">Explore &rarr;</span>
+        </div>
+      </a>
+
+      <a href="{{ '/research/air-microbiome/' | relative_url }}" class="theme-card">
+        <div class="theme-card-bg" style="background-image: url('{{ '/assets/images/theme-air.jpg' | relative_url }}');"></div>
+        <div class="theme-card-overlay"></div>
+        <div class="theme-card-content">
+          <span class="theme-card-meta">Aerobiology</span>
+          <h3 class="theme-card-title">Air Microbiome</h3>
+          <p class="theme-card-desc">Characterizing airborne microbial communities and their environmental and health implications.</p>
+          <span class="theme-card-link">Explore &rarr;</span>
+        </div>
+      </a>
+    </div>
+
+    <p class="cta-row center"><a href="{{ '/research/' | relative_url }}" class="btn">All research</a></p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-header-center">
+      <span class="eyebrow">In the field</span>
+      <h2>Where the work happens</h2>
+    </div>
+    <div class="field-strip">
+      <figure class="field-photo">
+        <img src="{{ '/assets/images/field-01.jpg' | relative_url }}" alt="MEEG lab fieldwork">
+      </figure>
+      <figure class="field-photo">
+        <img src="{{ '/assets/images/field-02.jpg' | relative_url }}" alt="MEEG lab fieldwork">
+      </figure>
+      <figure class="field-photo">
+        <img src="{{ '/assets/images/field-03.jpg' | relative_url }}" alt="MEEG lab fieldwork">
+      </figure>
     </div>
   </div>
 </section>
 
-<!-- Recent publications -->
 <section class="section">
   <div class="wrap">
     <div class="split">
@@ -87,29 +111,32 @@ title: Home
         <h2>Recent work</h2>
       </div>
       <div>
-        {% assign pubs = site.data.publications | sort: "year" | reverse %}
-        {% for pub in pubs limit: 4 %}
-          <div class="pub">
-            <div class="pub-year">{{ pub.year }}</div>
-            <div>
-              <h3 class="pub-title">{{ pub.title }}</h3>
-              <p class="pub-authors">{{ pub.authors }}</p>
-              <p class="pub-venue">{{ pub.venue }}</p>
-              {% if pub.links %}
-              <div class="pub-links">
-                {% for link in pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+        {% if site.data.publications %}
+          {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+          {% for pub in sorted_pubs limit: 4 %}
+            <div class="pub">
+              <div class="pub-year">{{ pub.year }}</div>
+              <div>
+                <h3 class="pub-title">{{ pub.title }}</h3>
+                <p class="pub-authors">{{ pub.authors }}</p>
+                <p class="pub-venue">{{ pub.venue }}</p>
+                {% if pub.links %}
+                <div class="pub-links">
+                  {% for link in pub.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+                </div>
+                {% endif %}
               </div>
-              {% endif %}
             </div>
-          </div>
-        {% endfor %}
-        <p style="margin-top:2rem;"><a href="{{ '/publications/' | relative_url }}" class="btn btn-ghost">Full publication list &rarr;</a></p>
+          {% endfor %}
+        {% else %}
+          <p>Publications listing coming soon.</p>
+        {% endif %}
+        <p class="cta-row"><a href="{{ '/publications/' | relative_url }}" class="btn btn-ghost">Full publication list</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- News -->
 <section class="section">
   <div class="wrap">
     <div class="split">
@@ -127,13 +154,12 @@ title: Home
             </div>
           </div>
         {% endfor %}
-        <p style="margin-top:2rem;"><a href="{{ '/news/' | relative_url }}" class="btn btn-ghost">All news &rarr;</a></p>
+        <p class="cta-row"><a href="{{ '/news/' | relative_url }}" class="btn btn-ghost">All news</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Join -->
 <section class="section">
   <div class="wrap">
     <div class="split">
@@ -142,8 +168,8 @@ title: Home
         <h2>Work with us</h2>
       </div>
       <div class="prose">
-        <p>The MEEG lab is looking for positive and highly motivated microbial enthusiasts. If any of our research themes &mdash; desert microbiomes, mycorrhizal symbiosis, AMR, climate-microbe feedbacks &mdash; interest you, we'd love to hear from you.</p>
-        <p>Prospective PhD students, postdocs, and undergraduates: please email <a href="mailto:sunilmundra@uaeu.ac.ae">sunilmundra@uaeu.ac.ae</a> with a CV and a short note on which projects spark your curiosity.</p>
+        <p>The MEEG lab is looking for positive and highly motivated microbial enthusiasts. If any of our research themes spark your curiosity, we would love to hear from you.</p>
+        <p>Prospective PhD students, postdocs, and undergraduates: please email <a href="mailto:sunilmundra@uaeu.ac.ae">sunilmundra@uaeu.ac.ae</a> with a CV and a short note on which projects interest you.</p>
         <p><a href="{{ '/contact/' | relative_url }}" class="btn">Get in touch</a></p>
       </div>
     </div>

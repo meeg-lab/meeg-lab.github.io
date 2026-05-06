@@ -3,7 +3,7 @@ layout: default
 ---
 <header class="page-header">
   <div class="wrap">
-    <span class="eyebrow">{{ page.role }}</span>
+    <span class="eyebrow">{{ page.role }}{% if page.subtitle %} &middot; {{ page.subtitle }}{% endif %}</span>
     <h1>{{ page.name }}</h1>
     {% if page.tagline %}<p class="lede">{{ page.tagline }}</p>{% endif %}
   </div>
@@ -11,19 +11,24 @@ layout: default
 
 <section class="section">
   <div class="wrap">
-    <div class="prose">
-      {{ content }}
-
-      {% if page.email or page.scholar or page.github or page.website %}
-      <h3 style="margin-top:2rem;">Contact</h3>
-      <ul>
-        {% if page.email %}<li>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></li>{% endif %}
-        {% if page.website %}<li>Website: <a href="{{ page.website }}">{{ page.website }}</a></li>{% endif %}
-        {% if page.scholar %}<li>Google Scholar: <a href="{{ page.scholar }}">profile</a></li>{% endif %}
-        {% if page.github %}<li>GitHub: <a href="https://github.com/{{ page.github }}">@{{ page.github }}</a></li>{% endif %}
-      </ul>
+    <div class="person-detail">
+      {% if page.photo %}
+      <div class="person-detail-photo">
+        <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
+      </div>
       {% endif %}
+      <div class="person-detail-body prose">
+        {{ content }}
+
+        {% if page.email or page.twitter %}
+        <h3>Contact</h3>
+        <ul>
+          {% if page.email %}<li>Email: <a href="mailto:{{ page.email }}">{{ page.email }}</a></li>{% endif %}
+          {% if page.twitter %}<li>Twitter: <a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a></li>{% endif %}
+        </ul>
+        {% endif %}
+      </div>
     </div>
-    <p style="margin-top:3rem;"><a href="{{ '/team/' | relative_url }}" class="btn btn-ghost">← All team</a></p>
+    <p class="cta-row"><a href="{{ '/team/' | relative_url }}" class="btn btn-ghost">All team</a></p>
   </div>
 </section>
