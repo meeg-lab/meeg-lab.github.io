@@ -2,21 +2,23 @@
 ---
 
 /* ============================================
-   Lab Site — Editorial Academic Aesthetic
+   MEEG Lab — Desert / Oasis Aesthetic
+   Sand, clay, oasis green, date-palm gold
    ============================================ */
 
 :root {
-  /* Palette: warm ivory ground, deep ink, ochre accent, sage support */
-  --ink: #1a1814;
-  --ink-soft: #3d3a33;
-  --ink-mute: #6b6558;
-  --ground: #f5f0e6;
-  --ground-warm: #ede5d3;
-  --paper: #fbf8f1;
-  --rule: #d9d1bf;
-  --accent: #b8541a;
-  --accent-soft: #d97f3f;
-  --sage: #5a6b52;
+  /* Palette: warm sand ground, deep clay ink, oasis green, gold accent */
+  --ink: #2a1f15;
+  --ink-soft: #4a3a2a;
+  --ink-mute: #7d6b56;
+  --ground: #f0e6d2;
+  --ground-warm: #e6d8b8;
+  --paper: #faf3e3;
+  --rule: #c9b896;
+  --accent: #5a7a3f;
+  --accent-soft: #7d9a5e;
+  --gold: #c08a2e;
+  --clay: #a04a28;
 
   /* Type */
   --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
@@ -42,8 +44,9 @@ body {
   color: var(--ink);
   background: var(--ground);
   background-image:
-    radial-gradient(circle at 15% 10%, rgba(184, 84, 26, 0.04), transparent 50%),
-    radial-gradient(circle at 85% 80%, rgba(90, 107, 82, 0.05), transparent 50%);
+    radial-gradient(ellipse at 20% 0%, rgba(192, 138, 46, 0.10), transparent 55%),
+    radial-gradient(ellipse at 90% 100%, rgba(90, 122, 63, 0.10), transparent 55%),
+    radial-gradient(ellipse at 50% 50%, rgba(160, 74, 40, 0.04), transparent 70%);
   background-attachment: fixed;
   line-height: 1.6;
   font-size: 18px;
@@ -51,15 +54,15 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* Subtle paper grain */
+/* Subtle sand grain */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 1;
-  opacity: 0.35;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0 0.05 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.4;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.16 0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0.09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* ----- Typography ----- */
@@ -83,7 +86,7 @@ p { margin: 0 0 1.1em; max-width: var(--measure); }
 a {
   color: var(--ink);
   text-decoration: none;
-  background-image: linear-gradient(transparent 60%, rgba(184, 84, 26, 0.18) 60%);
+  background-image: linear-gradient(transparent 60%, rgba(90, 122, 63, 0.22) 60%);
   background-size: 100% 100%;
   transition: color 0.2s, background-size 0.25s;
 }
@@ -97,7 +100,7 @@ a:hover {
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--clay);
   font-weight: 500;
   display: inline-block;
   margin-bottom: 1.2rem;
@@ -134,7 +137,7 @@ a:hover {
   border-bottom: 1px solid var(--rule);
   position: sticky;
   top: 0;
-  background: rgba(245, 240, 230, 0.92);
+  background: rgba(240, 230, 210, 0.93);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   z-index: 50;
@@ -171,25 +174,41 @@ a:hover {
 }
 .nav a:hover { color: var(--accent); }
 .nav a.active { color: var(--ink); }
-.nav a.active::before { content: "→ "; color: var(--accent); }
+.nav a.active::before { content: "→ "; color: var(--clay); }
 
 /* ----- Hero ----- */
 .hero {
   padding: clamp(4rem, 10vw, 8rem) 0 clamp(3rem, 7vw, 5rem);
   position: relative;
+  overflow: hidden;
 }
+
+/* Decorative dune curve at bottom of hero */
+.hero::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  bottom: -1px;
+  height: 60px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1200 60' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3E%3Cpath d='M0,40 C200,10 400,55 600,30 C800,5 1000,50 1200,25 L1200,60 L0,60 Z' fill='%23c9b896' opacity='0.3'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2.5rem;
   align-items: end;
+  position: relative;
+  z-index: 2;
 }
 @media (min-width: 860px) {
   .hero-grid { grid-template-columns: 7fr 4fr; gap: 4rem; }
 }
-.hero h1 {
-  margin: 0;
-}
+.hero h1 { margin: 0; }
 .hero h1 .accent {
   color: var(--accent);
   font-style: italic;
@@ -207,7 +226,7 @@ a:hover {
   flex-wrap: wrap;
   gap: 1.5rem;
 }
-.hero-meta span::before { content: "◦ "; color: var(--accent); margin-right: 0.25rem; }
+.hero-meta span::before { content: "◦ "; color: var(--gold); margin-right: 0.25rem; }
 
 /* ----- Cards / grids ----- */
 .grid {
@@ -226,8 +245,8 @@ a:hover {
 }
 .card:hover {
   transform: translateY(-3px);
-  border-color: var(--ink-soft);
-  box-shadow: 0 20px 40px -20px rgba(26, 24, 20, 0.18);
+  border-color: var(--accent);
+  box-shadow: 0 20px 40px -20px rgba(42, 31, 21, 0.22);
 }
 .card h3 { margin-bottom: 0.4rem; }
 .card-meta {
@@ -235,7 +254,7 @@ a:hover {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--ink-mute);
+  color: var(--clay);
   margin-bottom: 0.75rem;
 }
 .card p { font-size: 0.95rem; color: var(--ink-soft); }
@@ -283,7 +302,7 @@ a:hover {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--accent);
+  color: var(--clay);
 }
 .person p { font-size: 0.9rem; margin: 0.5rem 0 0; color: var(--ink-soft); }
 .person .links {
@@ -305,7 +324,7 @@ a:hover {
 .pub-year {
   font-family: var(--font-mono);
   font-size: 0.85rem;
-  color: var(--accent);
+  color: var(--clay);
   letter-spacing: 0.05em;
 }
 .pub-title { font-size: 1.05rem; font-weight: 450; line-height: 1.35; margin: 0 0 0.35rem; }
@@ -380,9 +399,9 @@ a:hover {
 }
 .site-footer a {
   color: var(--ground);
-  background-image: linear-gradient(transparent 60%, rgba(216, 127, 63, 0.4) 60%);
+  background-image: linear-gradient(transparent 60%, rgba(192, 138, 46, 0.45) 60%);
 }
-.site-footer a:hover { color: var(--accent-soft); }
+.site-footer a:hover { color: var(--gold); }
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -442,7 +461,7 @@ a:hover {
   padding: 1.25rem;
   overflow-x: auto;
   font-size: 0.85rem;
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--gold);
 }
 .prose pre code { background: none; border: none; padding: 0; color: inherit; }
 .prose blockquote {

@@ -1,25 +1,27 @@
 # Site settings
-title: "Lab Name"
-tagline: "A research group at University Name"
+title: "MEEG Lab"
+tagline: "Microbial Ecology & Environmental Genomics"
 description: >-
-  We study [research focus] at the intersection of [field A] and [field B].
-  Our group develops new methods and tools for [specific problems].
-url: "https://username.github.io"
-baseurl: "" # for project pages, set to "/repo-name"
+  We study how microbiota shape environmental, plant, animal, and human health,
+  with a focus on arid ecosystems, mycorrhizal symbiosis, and the response of
+  microbial communities to global change.
+url: "https://meeg-lab.github.io"
+baseurl: ""
 
 # Author / PI
 pi:
-  name: "Dr. Principal Investigator"
-  title: "Associate Professor"
-  email: "pi@university.edu"
-  office: "Building 100, Room 200"
-  department: "Department of X"
-  university: "University Name"
+  name: "Dr. Sunil Mundra"
+  title: "Assistant Professor"
+  email: "sunilmundra@uaeu.ac.ae"
+  office: "Department of Biology, College of Science"
+  department: "Department of Biology"
+  university: "United Arab Emirates University"
+  phone: "+971-(3)-713-6341"
 
 # Social / external
-github_username: "username"
-twitter_username: ""
-google_scholar: "https://scholar.google.com/citations?user=XXXX"
+github_username: "meeg-lab"
+twitter_username: "msunilmundra"
+google_scholar: ""
 orcid: ""
 
 # Build
@@ -63,7 +65,6 @@ defaults:
     values:
       layout: "teaching"
 
-# Pagination
 paginate: 5
 paginate_path: "/news/page:num/"
 
