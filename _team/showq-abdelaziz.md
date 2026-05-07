@@ -2,7 +2,7 @@
 name: "Showq Hijawi Abdelaziz"
 role: "Alumni"
 tagline: "Multi-drug resistant bacteria from sewage wastewater."
-photo: "/assets/images/team/showq-abdelaziz.jpg"
+photo: "/assets/images/showq-abdelaziz.jpg"
 order: 6
 ---
 
