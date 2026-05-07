@@ -1,7 +1,7 @@
 ---
 name: "Fardous Alhashmi"
 role: "Alumni"
-subtitle: "Laboratory Assistant"
+subtitle: "Master's Student"
 tagline: "Saline irrigation and date palm rhizosphere bacteria."
 photo: "assets/images/WhatsApp Image 2026-05-07 at 13.40.18.jpeg"
 order: 7
