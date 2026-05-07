@@ -1,6 +1,7 @@
 ---
-name: "Fardous Alhasmi"
+name: "Fardous Alhashmi"
 role: "Alumni"
+subtitle: "Laboratory Assistant"
 tagline: "Saline irrigation and date palm rhizosphere bacteria."
 order: 7
 ---
