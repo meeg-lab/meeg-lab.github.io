@@ -2,7 +2,7 @@
 name: "Mahideen Afridi"
 role: "Alumni"
 tagline: "Hypersaline soils and mangrove microbiota in ecosystem functioning."
-photo: "/assets/images/team/mahideen-afridi.jpg"
+photo: "/assets/images/mahideen-afridi.jpg"
 order: 5
 ---
 
