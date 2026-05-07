@@ -1,6 +1,7 @@
 ---
 name: "Suba Chandran"
 role: "Alumni"
+subtitle: "PhD Student"
 tagline: "Salinity stress and date palm fungal communities."
 photo: "/assets/images/suba-chandran.jpg"
 order: 3
