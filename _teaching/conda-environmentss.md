@@ -1,7 +1,7 @@
 ---
 title: "Setting up Conda environments for genomics"
 kind: "Resources"
-subkind: "Setup guides"
+subkind: "Setup Guides"
 level: "Beginner · 15 minutes"
 lede: "How to install Conda, create a clean environment for each project, and avoid version-conflict headaches."
 order: 1
