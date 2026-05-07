@@ -3,7 +3,7 @@ name: "Ponnarmadha Subramani"
 role: "PhD Student"
 subtitle: "Ecology"
 tagline: "Sustainable bacterial cellulose production from date palm waste."
-photo: "/assets/images/team/ponnarmadha-subramani.jpg"
+photo: "/assets/images/team/ponnarmadha-subramani.jpeg"
 order: 5
 ---
 
