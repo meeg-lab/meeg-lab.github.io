@@ -1,0 +1,10 @@
+---
+name: "Amna AlHemeiri"
+role: "Alumni"
+subtitle: "Master's Student"
+tagline: "Multi-drug resistant bacteria from sewage wastewater."
+photo: "/assets/images/amna-alh.jpeg"
+order: 6
+---
+
+Amna Alhemeiri completed her Master of Science in Environmental Sciences at United Arab Emirates University from 2022 to 2024 at MEEG. Her research focused on the diversity, distribution, and environmental determinants of bacterial communities in Arctic soils, exploring how bacterial populations respond to changing ecological and climatic conditions.
