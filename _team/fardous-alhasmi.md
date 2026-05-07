@@ -3,6 +3,7 @@ name: "Fardous Alhashmi"
 role: "Alumni"
 subtitle: "Laboratory Assistant"
 tagline: "Saline irrigation and date palm rhizosphere bacteria."
+photo: "assets/images/female-icon.avif"
 order: 7
 ---
 
