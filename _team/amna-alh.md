@@ -1,7 +1,7 @@
 ---
 name: "Amna AlHemeiri"
 role: "Alumni"
-subtitle: "Master's Student"
+alumni_role: "Master's Student"
 tagline: "Diversity, and environmental determinants of bacterial communities in Arctic Soil"
 photo: "/assets/images/amna-alh.jpeg"
 order: 6
