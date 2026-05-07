@@ -3,7 +3,7 @@ name: "Elfa Naseem"
 role: "Master's Student"
 subtitle: "Molecular Biology and Biotechnology"
 tagline: "Host species and seasonal drivers of native UAE desert plant rhizosphere microbiomes."
-photo: "/assets/images/team/elfa-naseem.jpg"
+photo: "/assets/images/team/elfa-naseem.png"
 order: 8
 ---
 
