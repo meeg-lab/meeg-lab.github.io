@@ -3,7 +3,7 @@ name: "Nazneen Shamsudheen"
 role: "Master's Student"
 tagline: "Mitigating Salinity Stress using Salicyclic Acid and Synthetic Microbial Communities"
 photo: "/assets/images/team/xx.jpg"
-order: 6
+order: 7
 ---
 
 
