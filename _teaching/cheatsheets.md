@@ -1,6 +1,6 @@
 ---
-title: "Reproducibility cheat sheets"
-kind: "Cheat sheets"
+title: "Resources: Cheat Sheets to Workflow Guides"
+kind: "Resources"
 level: "All levels"
 lede: "One-page references for the tools we use in every project: Git, Snakemake, Conda, Quarto."
 order: 1
