@@ -1,6 +1,6 @@
 ---
 name: "Dr. Dinesh Chetti"
-role: "Postdoc"
+role: "Alumni"
 tagline: "Microbiome and functionality of natural and engineered ecosystems."
 photo: "/assets/images/dinesh-chetti.jpg"
 order: 2
