@@ -17,3 +17,24 @@ your command here
 ```
 
 More explanation.
+
+
+```bash
+your shell commands
+```
+
+```python
+your python code
+```
+
+```r
+your r code
+```
+
+```yaml
+your yaml config
+```
+
+```
+plain text or output, no syntax highlighting
+```
