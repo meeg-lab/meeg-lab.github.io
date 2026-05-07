@@ -747,3 +747,65 @@ a:hover { color: var(--accent); }
   .nav { gap: 0.9rem; font-size: 0.7rem; }
   body { font-size: 17px; }
 }
+
+
+/* ===== TUTORIAL / CODE STYLES ===== */
+
+.prose pre {
+  background: #1e1812;
+  color: #e8dcc4;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  border-left: 3px solid var(--gold);
+  border-radius: 2px;
+}
+
+.prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font-family: var(--font-mono);
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--ground-warm);
+  padding: 0.15em 0.4em;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  color: var(--clay);
+}
+
+/* Rouge syntax highlighting in desert palette */
+.highlight .c, .highlight .cm, .highlight .c1 { color: #8d8268; font-style: italic; }    /* comments */
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp { color: #d97f3f; }         /* keywords */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb { color: #a5c47d; }         /* strings */
+.highlight .nb, .highlight .nf, .highlight .nc { color: #c08a2e; }                        /* function names */
+.highlight .mi, .highlight .mf { color: #d97f3f; }                                        /* numbers */
+.highlight .o, .highlight .ow { color: #e8dcc4; }                                         /* operators */
+.highlight .nv, .highlight .vi { color: #7d9a5e; }                                        /* variables */
+
+/* Step headers within tutorials */
+.prose h2 {
+  margin-top: 3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+.prose h2:first-child { margin-top: 1rem; }
+
+/* Inline tip / note box */
+.prose blockquote {
+  background: var(--ground-warm);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-style: normal;
+  color: var(--ink);
+}
+.prose blockquote p:last-child { margin-bottom: 0; }
+.prose blockquote strong { color: var(--clay); }
