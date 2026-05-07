@@ -1,7 +1,7 @@
 ---
 name: "Dr. Balamurugan Sadaiappan"
 role: "Postdoc"
-tagline: "Marine microbiomes, machine learning, and antimicrobial resistance in aquatic systems."
+tagline: "Marine, mangrove and sabkha microbiom ."
 email: "balamurugan@uaeu.ac.ae"
 photo: "/assets/images/balamurugan-sadaiappan.jpg"
 order: 3
