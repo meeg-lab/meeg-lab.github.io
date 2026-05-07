@@ -1,5 +1,5 @@
 ---
-name: "Ruqaya Mohamed Mbwana"
+name: "Ruqaya Mohamed Mubwana"
 role: "PhD Student"
 subtitle: "Ecology"
 tagline: "Air Microbiome Analysis."
