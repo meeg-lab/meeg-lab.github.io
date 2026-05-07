@@ -1,7 +1,7 @@
 ---
 name: "Dr. Sulamita Correa"
 role: "Alumni"
-subtitle: "Postdoc"
+alumni_role:  "Postdoc"
 tagline: "Microbial biotechnology for sustainable crop resilience."
 photo: "/assets/images/sulamita-correa.jpg"
 order: 3
