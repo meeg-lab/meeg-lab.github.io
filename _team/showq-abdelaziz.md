@@ -8,4 +8,4 @@ order: 6
 
 Showq completed her Bachelor's degree in Medical Analysis from the University of Jordan and joined the MEEG lab in Spring 2022.
 
-In her project, she screens multi-drug resistant (MDR) bacteria from sewage wastewater and characterizes the isolates using whole-genome sequencing.
+In her project, she screened multi-drug resistant (MDR) bacteria from sewage wastewater and characterizes the isolates using whole-genome sequencing.
