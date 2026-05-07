@@ -1,0 +1,19 @@
+---
+title: "Your tutorial title"
+kind: "Tutorials"
+level: "Beginner / Intermediate / Advanced · estimated time"
+lede: "One-line description that shows on the listing card."
+order: 2
+---
+
+Your intro paragraph.
+
+## Step 1 — First thing
+
+Explanation.
+
+```bash
+your command here
+```
+
+More explanation.
