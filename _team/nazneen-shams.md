@@ -1,8 +1,8 @@
 ---
 name: "Nazneen Shamsudheen"
 role: "Master's Student"
-tagline: "Multi-drug resistant bacteria from sewage wastewater."
-photo: "/assets/images/team/showq-abdelaziz.jpg"
+tagline: "Mitigating Salinity Stress using Salicyclic Acid and Synthetic Microbial Communities"
+photo: "/assets/images/team/xx.jpg"
 order: 6
 ---
 
