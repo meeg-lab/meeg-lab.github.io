@@ -2,7 +2,7 @@
 name: "Shahana Sehar Malik"
 role: "Alumni"
 tagline: "Wastewater microbiomes and the spread of antimicrobial resistance."
-photo: "/assets/images/team/shahana-malik.jpg"
+photo: "/assets/images/shahana-malik.jpg"
 order: 4
 ---
 
