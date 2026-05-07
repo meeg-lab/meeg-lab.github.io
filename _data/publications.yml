@@ -1,6 +1,425 @@
-- title: "Irrigation water salinity structures the bacterial communities of date palm (Phoenix dactylifera)-associated bulk soil"
-  authors: "Loganathacheti D.S., AlHashmi F., Chandran S., and Mundra S."
-  venue: "Frontiers in Plant Sciences"
-  year: 2022
+# MEEG Lab publications
+# Sorted newest first; Mundra, S. is wrapped in <span class="me"> for emphasis.
+
+# ---------- 2026 ----------
+
+- title: "Global dataset of soil eukaryotic communities created with a uniform protocol and long read sequencing"
+  authors: "Mikryukov et al."
+  venue: "Scientific Data (IF: 6.90, Q1)"
+  year: 2026
+
+- title: "Seasonality of composition, genomic potential and activity of coniferous forest soil microbiomes"
+  authors: "Human Z.R., Štursová M., Odriozola I., Větrovský T., Howe A., Navrátilová D., López-Mondéjar R., Žifčáková L., Brabcová V., <span class='me'>Mundra, S.</span>, Thoen E., Morgado L., Fiore-Donno A.M., Bonkowski M., Adamczyk B., Kohout P., Lipton M.S., Calhoun S., LaButti K., Lipzen A., Keymanesh K., Tejomurthula S., Pennacchio C., Grigoriev I.V., Martin F., Kauserud H., and Baldrian P."
+  venue: "Scientific Data (IF: 6.90, Q1)"
+  year: 2026
   links:
-    - { label: "Read", url: "https://academic.oup.com/femsec/advance-article/doi/10.1093/femsec/fiab022/6129799" }
+    - { label: "DOI", url: "https://doi.org/10.1038/s41597-026-07163-w" }
+
+- title: "Above- and belowground communities in boreal forests are tightly linked along common ecological gradients"
+  authors: "Ronold E.K., Morgado L., <span class='me'>Mundra, S.</span>, Nybakken L., Halvorsen R., and Kauserud H."
+  venue: "Plant and Soil (IF: 3.29, Q1)"
+  year: 2026
+
+- title: "Molecular adaptations and engineering of extremophiles for synthetic biology and biotechnological applications"
+  authors: "Rehman Y.A., Fayyaz A., Alblooshi A.S., Muhammad K., <span class='me'>Mundra, S.</span>, and Alam M.T."
+  venue: "Frontiers in Microbiology (IF: 4.50, Q1)"
+  year: 2026
+
+- title: "Synthetic phyllosphere microbiota enhance wax gourd plant growth and suppress Phytophthora capsici by reshaping microbial communities"
+  authors: "Ali Q., Zhao Q., Liu J., Chen S., Raza W., Gu Q., Wu H., <span class='me'>Mundra, S.</span>, Li X., and Gao X."
+  venue: "Journal of Agriculture and Food Research (IF: 6.2, Q1)"
+  year: 2026
+
+- title: "STREAMS guidelines: standards for technical reporting in environmental and host-associated microbiome studies"
+  authors: "Kelliher J.M., Mirzayi C., Bordenstein S.R., et al."
+  venue: "Nature Microbiology, 10, 3059–3068 (IF: 19.4, Q1)"
+  year: 2026
+  links:
+    - { label: "DOI", url: "https://doi.org/10.1038/s41564-025-02186-2" }
+
+# ---------- 2025 ----------
+
+- title: "Genomic and functional characterisation of endophytic bacterium Bacillus cereus strain E1 alleviating salt stress and enhancing tomato physiology and spectral indices"
+  authors: "Sadaiappan B., Khan T.A., Ali Q., Correa S.S., Afridi M., Tounsi-Hammami S., Khan M.A., and <span class='me'>Mundra, S.</span>"
+  venue: "Journal of Sustainable Agriculture and Environment (IF: 3.6, Q1)"
+  year: 2025
+
+- title: "Advancements in photosynthetic efficiency: pathways, regulation, and biotechnological applications for enhancing crop productivity"
+  authors: "Khan T.A., <span class='me'>Mundra, S.</span>, and Gururani M.A."
+  venue: "Plant Signaling & Behavior, 20(1) (IF: 3.6, Q1)"
+  year: 2025
+  links:
+    - { label: "DOI", url: "https://doi.org/10.1080/15592324.2025.2596483" }
+
+- title: "Environmental footprint of antibiotics: a multi-source investigation into wastewater systems of UAE"
+  authors: "Malik S.S., Sadaiappan B., Aly Hassan A., Shah I., Elangovan S., and <span class='me'>Mundra, S.</span>"
+  venue: "Antibiotics (IF: 4.6, Q1)"
+  year: 2025
+
+- title: "Open letter: a global call to strengthen national soil biodiversity action through coordination and harmonization"
+  authors: "Marin C. et al."
+  venue: "Plants People Planet (IF: 3.6, Q2)"
+  year: 2025
+
+- title: "Bacillus species compatibility enhances VOC-mediated systemic resistance against Botrytis cinerea"
+  authors: "Khan A.R., Ali Q., Wu X., Ayaz M., Tariq H., Bilal M.S., <span class='me'>Mundra, S.</span>, Gu Q., Wu H., and Gao X."
+  venue: "World Journal of Microbiology and Biotechnology (IF: 4.2, Q2)"
+  year: 2025
+
+- title: "Bacillus paranthracis alleviates saline stress in tomato by reprogramming physiology, photosynthesis, and antioxidant activity"
+  authors: "Ali Q., Khan T.A., Ali M., Gururani M.A., and <span class='me'>Mundra, S.</span>"
+  venue: "BMC Plant Biology, 25, 1362 (IF: 4.8, Q1)"
+  year: 2025
+  links:
+    - { label: "DOI", url: "https://doi.org/10.1186/s12870-025-07456-z" }
+
+- title: "Navigating PIFs and phytochromes: key players in plant development and resilience to drought and other abiotic stresses"
+  authors: "Sameera K., Khan T.A., Rahim W., Pullaniyil J., Anuradha T., <span class='me'>Mundra, S.</span>, and Gururani M.A."
+  venue: "Plant Stress (IF: 6.9, Q1)"
+  year: 2025
+
+- title: "Bacillus sp. SW14 isolated from arid mangroves sediments enhances tomato plant growth: insights from genome analysis and greenhouse evaluation"
+  authors: "Sadaiappan B., Ali Q., Afridi M., Khan M.A., and <span class='me'>Mundra, S.</span>"
+  venue: "Frontiers in Plant Science (IF: 4.8, Q1)"
+  year: 2025
+
+- title: "Integrative systems biology approaches for analyzing microbiome dysbiosis and species interactions"
+  authors: "Ur Rehman S.S., Nasar M.I., Mesquita C.S., Al Khodor S., Notebaart R.A., Ott S., <span class='me'>Mundra, S.</span>, Arasardanam R.P., Muhammad K., and Alam M.T."
+  venue: "Briefings in Bioinformatics, 26(4), bbaf323 (IF: 13.99, Q1)"
+  year: 2025
+
+- title: "Mangrove-associated halotolerant bacteria augments salinity stress tolerance in Solanum lycopersicum"
+  authors: "AlHosani M., Kappachery S., Khan T.A., Karumannil S., <span class='me'>Mundra, S.</span>, and Gururani M.A."
+  venue: "Plant Science (IF: 4.1, Q1)"
+  year: 2025
+
+- title: "Temperature abuse and Salmonella Typhimurium colonization disrupt the indigenous bacterial communities of pasteurized bovine milk over time"
+  authors: "Bharathan G., Sadaiappan B., Phasaludheen B., Alneyadi D., <span class='me'>Mundra, S.</span>, and Srikumar S."
+  venue: "Scientific Reports (IF: 3.9, Q1)"
+  year: 2025
+
+- title: "Irrigation water and soil chemistry shape fungal guilds in date palm soils, enhancing pathotroph abundance under saline groundwater irrigation"
+  authors: "Chandran S., Loganathachetti D.S., Sadaiappan B., Swarup S., and <span class='me'>Mundra, S.</span>"
+  venue: "Current Research in Microbial Sciences (IF: 4.8, Q1)"
+  year: 2025
+
+- title: "Antimicrobial metabolites of Bacillus velezensis FZB42 reshape rice rhizosphere microbial community composition and induce host resistance against Rhizoctonia solani"
+  authors: "Ali Q., Khan A.R., Yu C., Raza W., Qian Z., Gu Q., Wu H., <span class='me'>Mundra, S.</span>, and Gao Y."
+  venue: "Current Plant Biology (IF: 5.4)"
+  year: 2025
+
+- title: "Mechanisms of microbial VOC-mediated communication in plant ecosystems and agricultural applications"
+  authors: "Ali Q., Khan A.R., Raza W., Bilal M.S., Khalid S., Ayaz M., Khan A.R., and <span class='me'>Mundra, S.</span>"
+  venue: "Journal of Sustainable Agriculture and Environment (Top 10% Q1)"
+  year: 2025
+
+# ---------- 2024 ----------
+
+- title: "Power of plant microbiome: a sustainable approach for agricultural resilience"
+  authors: "Ali Q., Ali M., Jing H., Hussain A., Manghwar H., Ali M., Raza W., and <span class='me'>Mundra, S.</span>"
+  venue: "Plant Stress (IF: 6.8)"
+  year: 2024
+
+- title: "The disciplinary matrix of holobiont biology: uniting life's seen and unseen realms guides a conceptual advance in research"
+  authors: "Bordenstein S.R., Gilbert M.P.T., Ginnan N., Malacrinò A., Martino M.E., Bahrndorff S., <span class='me'>Mundra, S.</span>, Martin M.D., Theis K.R., Hird S.M., Caro-Quintero A., Sharpton T.J., Kohl K.D., Barnes C.J., Eisenhofer R., Aizpurua O., Andersen S.B., Brealey J.C., Noer C.L., Medina M., Limborg M.T., and Alberdi A."
+  venue: "Science (IF: 47.73)"
+  year: 2024
+  links:
+    - { label: "DOI", url: "https://doi.org/10.1126/science.ado2152" }
+
+- title: "Editorial: Applicative and ecological aspects of mycorrhizal symbioses"
+  authors: "<span class='me'>Mundra, S.</span> and Mustafa M."
+  venue: "Frontiers in Plant Science (IF: 4.10)"
+  year: 2024
+
+- title: "Heterogenous bioluminescence patterns, cell viability, and biofilm formation of Photobacterium leiognathi strains exposed to ground microplastics"
+  authors: "De Jesus R., Iqbal S., <span class='me'>Mundra, S.</span>, and AlKendi R."
+  venue: "Frontiers in Toxicology (IF: 3.6)"
+  year: 2024
+
+- title: "Mangrove sediments-associated bacterium (Bacillus sp. SW7) with multiple plant growth-promoting traits promotes the growth of tomato (Solanum lycopersicum)"
+  authors: "Afridi M., Sadaiappan B., Nassar A.S., Mahmoud H., Khan M.A., and <span class='me'>Mundra, S.</span>"
+  venue: "Frontiers in Marine Science (IF: 3.70)"
+  year: 2024
+
+- title: "Bacterial resistome in different stages of wastewater treatment plant is highly impacted by the abundance of the Pseudomonadota community"
+  authors: "Malik S.S., Loganathachetti D.S., Khan M.A., Sadaiappan B., and <span class='me'>Mundra, S.</span>"
+  venue: "Bioresource Technology Reports (IF: 4.82)"
+  year: 2024
+
+- title: "Optimizing tomato seedling growth with indigenous mangrove bacterial inoculants and reduced NPK fertilizers"
+  authors: "Tounsi-Hammami S., Khan M.A., Zeb A., Anwar A.R., Arora N., Naseem M., and <span class='me'>Mundra, S.</span>"
+  venue: "Frontiers in Plant Sciences (IF: 6.63)"
+  year: 2024
+
+- title: "Tree species replacement from birch to spruce affects eukaryome in boreal forest soil"
+  authors: "<span class='me'>Mundra, S.</span>, Dinesh S.L., Kjønaas O.K., Fiore-Donno A.M., Økland T., Nordbakken J., and Kauserud H."
+  venue: "European Journal of Soil Biology (IF: 4.42)"
+  year: 2024
+
+- title: "Synchronic shifts in phenolic compounds and fungal communities during decomposition in boreal forests"
+  authors: "Ransedokken Y., Morgado L., Kauserud H., Asplund J., <span class='me'>Mundra, S.</span>, Ohlson M., Halvorsen R., and Nybakken L."
+  venue: "Forest Ecology and Management (IF: 3.70)"
+  year: 2024
+
+- title: "Mechanical scarification: the key to optimal germination parameters in nine flowering species of the United Arab Emirates"
+  authors: "Debouza N.E., <span class='me'>Mundra, S.</span>, Shah I., and Ksiksi T."
+  venue: "Innovations in Agriculture"
+  year: 2024
+  links:
+    - { label: "DOI", url: "https://doi.org/10.25081/ia.2024-005" }
+
+# ---------- 2023 ----------
+
+- title: "Connecting the multiple dimensions of global soil fungal diversity"
+  authors: "Mikryukov V., Dulya O., Zizka A., Bahram M., Hagh-Doust N., Anslan S., et al. (incl. <span class='me'>Mundra, S.</span>)"
+  venue: "Science Advances, 9, eadj8016 (IF: 15.00)"
+  year: 2023
+  links:
+    - { label: "DOI", url: "https://doi.org/10.1126/sciadv.adj8016" }
+
+- title: "Microbial resilience in plant nutrient management towards sustainable farming"
+  authors: "Solanki M.K., Verma K.K., Dastogeer K.M., Mora-Poblete F., and <span class='me'>Mundra, S.</span>"
+  venue: "Frontiers in Microbiology (IF: 5.20)"
+  year: 2023
+
+- title: "Regulation of iron metabolism is critical for the survival of Salmonella Typhimurium in pasteurized milk"
+  authors: "Bharathan G., <span class='me'>Mundra, S.</span>, Darwich D., Saeed M., Al Hafri A., Alsalmi M., Maqsood S., Mudgil P., Fanning S., and Srikumar S."
+  venue: "Food Microbiology, 115 (IF: 4.50)"
+  year: 2023
+
+- title: "Irrigation water pH not soil pH alter bacterial community structure and putative nitrogen cycle pathways in belowground compartments of date palm (Phoenix dactylifera L.)"
+  authors: "Loganathachetti D.S. and <span class='me'>Mundra, S.</span>"
+  venue: "Frontiers in Ecology and Evolution (IF: 4.50)"
+  year: 2023
+
+- title: "Irrigation water source matters: saline groundwater irrigation lowers date palm root-associated fungal richness and alters their community structural patterns"
+  authors: "Chandran S., Loganathachetti D.S., Masmoudi K., Iratni R., and <span class='me'>Mundra, S.</span>"
+  venue: "Phytobiomes (IF: 5.19)"
+  year: 2023
+
+- title: "Editorial: Plant microbiome — ecology, functions and application trends"
+  authors: "<span class='me'>Mundra, S.</span>, Shockey J., and Morcy M."
+  venue: "Frontiers in Plant Sciences, 14, 1175556 (IF: 5.80)"
+  year: 2023
+
+- title: "Divergent TLR2 and TLR4 activation by fungal spores and species diversity in dust from waste sorting plants"
+  authors: "Afanou A.K., <span class='me'>Mundra, S.</span>, Estensmo E.F., Pedersen I., Liland J.R., Eriksen E., Graff P., Hildre T.T., Nordby K., and Straumfors A."
+  venue: "Applied and Environmental Microbiology (IF: 5.05)"
+  year: 2023
+
+# ---------- 2022 ----------
+
+- title: "Increasing consumption of antibiotics during the COVID-19 pandemic: implications for patient health and emerging antimicrobial resistance"
+  authors: "Malik S.S. and <span class='me'>Mundra, S.</span>"
+  venue: "Antibiotics, 12(45) (IF: 5.22)"
+  year: 2022
+
+- title: "Impact of climate change on parasite infection of an important pollinator depends on host genotypes"
+  authors: "Manlik O., <span class='me'>Mundra, S.</span>, Schmid-Hempel R., and Schmid-Hempel P."
+  venue: "Global Change Biology (IF: 13.21)"
+  year: 2022
+
+- title: "Reply to Oren et al., 'New phylum names harmonize prokaryotic nomenclature'"
+  authors: "Sharma G., Islam S.T., Rahi P., Silby M.W., Giovannelli D., Welander P.V., Ehling-Schulz M., Chaudhry V., Molloy E., Hertweck C., <span class='me'>Mundra, C.</span>, Kalia V.C., Lal R., Singh Y., Ruby E., Weigel C., and Kolter R."
+  venue: "mBio, e02323-22 (IF: 7.78)"
+  year: 2022
+
+- title: "Contrasting genome patterns of two Pseudomonas strains isolated from date palm rhizosphere for survival in hot arid environment"
+  authors: "Malik S.S., Sudalaimuthuasari N., Kundu B., AlMaskari R.S., and <span class='me'>Mundra, S.</span>"
+  venue: "World Journal of Microbiology and Biotechnology, 38(11), 207 (IF: 3.21)"
+  year: 2022
+
+- title: "Global patterns in endemicity and vulnerability of soil fungi"
+  authors: "Tedersoo L., Mikryukov V., Zizka A., Bahram M., et al. (incl. <span class='me'>Mundra, S.</span>)"
+  venue: "Global Change Biology, 28(22), 6696-6710 (IF: 13.21)"
+  year: 2022
+
+- title: "Salinity of irrigation water selects distinct bacterial communities associated with root of date palm (Phoenix dactylifera L.)"
+  authors: "Shamin A., Loganathachetti D.S., Chandran S., Masmoudi K., and <span class='me'>Mundra, S.</span>"
+  venue: "Scientific Reports, 12, 12733 (IF: 4.38)"
+  year: 2022
+
+- title: "Irrigation water salinity structures the bacterial communities of date palm (Phoenix dactylifera)-associated bulk soil"
+  authors: "Loganathachetti D.S., AlHashmi F., Chandran S., and <span class='me'>Mundra, S.</span>"
+  venue: "Frontiers in Plant Sciences, 13, 944637 (IF: 5.80)"
+  year: 2022
+
+- title: "Shift in tree species changes the belowground biota of the boreal forest"
+  authors: "<span class='me'>Mundra, S.</span>, Kauserud H., Økland T., Nordbakken J., Ransedokken Y., and Kjønaas O.J."
+  venue: "New Phytologist, 234(6), 2073-2087 (IF: 10.2)"
+  year: 2022
+
+- title: "Salt flat microbial diversity and dynamics across salinity gradient"
+  authors: "Hazzouri K.M., Sudalaimuthuasari N., Saeed E.E., Kundu B., Al-Maskari R.S., Nelson D., AlShehhi A.A., Aldhuhoori M.A., Almutawa D.S., Alshehhi F.R., Balan J., <span class='me'>Mundra, S.</span>, Alam M., Salehi-Ashtiani K., Purugganan M., and Amiri K.M."
+  venue: "Scientific Reports, 12, 11293 (IF: 4.38)"
+  year: 2022
+
+- title: "Soil compartments (bulk soil, litter, root and rhizosphere) as main drivers of soil protistan communities distribution in forest with different nitrogen deposition"
+  authors: "Fiore-Donno A.M., Human Z.R., Štursová M., <span class='me'>Mundra, S.</span>, Morgado L., Kauserud H., Baldrian P., and Bonkowski M."
+  venue: "Soil Biology and Biochemistry, 168, 108628 (IF: 7.61)"
+  year: 2022
+
+# ---------- 2021 ----------
+
+- title: "Soil depth matters: shift in composition and inter-kingdom co-occurrence patterns of microorganisms in deciduous forest along depth gradients"
+  authors: "<span class='me'>Mundra, S.</span>, Morgado L., Krabberød A.K., Ransedokken Y., Kjønaas O.J., and Kauserud H."
+  venue: "FEMS Microbiology Ecology, 97(3), fiab022 (IF: 4.2)"
+  year: 2021
+
+- title: "The Global Soil Mycobiome consortium dataset for boosting fungal diversity research"
+  authors: "Tedersoo L., Mikryukov V., Anslan S., Bahram M., et al. (incl. <span class='me'>Mundra, S.</span>)"
+  venue: "Fungal Diversity, 111, 573-588 (IF: 20.4)"
+  year: 2021
+
+- title: "Experimental warming drives a 'hummockification' of microbial communities associated with decomposing mycorrhizal fungal necromass in peatlands"
+  authors: "Maillard F., Fernandez C.W., <span class='me'>Mundra, S.</span>, Heckman K., Kolka R., Kauserud H., and Kennedy P.G."
+  venue: "New Phytologist, 234(6), 2032-2043 (IF: 8.5)"
+  year: 2021
+
+- title: "Analysis of salivary mycobiome in a cohort of oral squamous cell carcinoma patients from Sudan identifies Malassezia as an independent predictor of overall survival"
+  authors: "Mohamed N.G., Litlekalsøy J., Ahmed I.A., Martinsen E.M.H., Furriol J., Javier-Lopez R., Elsheikh M., Mohamed N.G., Morgado L., <span class='me'>Mundra, S.</span>, Johannessen A.C., Osman T.A., Nginamau E.S., Suleiman A., and Costea D.E."
+  venue: "Frontiers in Cellular and Infection Microbiology, 11, 673465 (IF: 5.3)"
+  year: 2021
+
+- title: "The airborne mycobiome and associations with mycotoxins and inflammatory markers in the Norwegian grain industry"
+  authors: "Straumfors A., <span class='me'>Mundra, S.</span>, Foss A.H., Fuss J., Mollerup S., and Kauserud H."
+  venue: "Scientific Reports, 11, 9351 (IF: 5.1)"
+  year: 2021
+
+- title: "Establishment of spruce plantation in native birch forests reduces soil fungal diversity"
+  authors: "Danielsen J.S., Morgado L., <span class='me'>Mundra, S.</span>, Nybakken L., Davey M., and Kauserud H."
+  venue: "FEMS Microbiology Ecology, 97(7), fiab074 (IF: 4.2)"
+  year: 2021
+
+- title: "Fungal community dynamics across a forest-alpine ecotone"
+  authors: "Tonjer L., Thoen E., Morgado L., Botnen S.S., <span class='me'>Mundra, S.</span>, Nybakken L., Bryn A., and Kauserud H."
+  venue: "Molecular Ecology, 30(19), 4926-4938 (IF: 6.62)"
+  year: 2021
+
+- title: "FungalTraits: a user-friendly traits database of fungi and fungus-like stramenopiles"
+  authors: "Põlme S., Abarenkov K., Henrik Nilsson R., Lindahl B.D., et al. (incl. <span class='me'>Mundra, S.</span>)"
+  venue: "Fungal Diversity, 105, 1-16 (IF: 20.4)"
+  year: 2021
+
+- title: "Can root-associated fungi mediate the impact of abiotic conditions on the growth of a High Arctic herb?"
+  authors: "Wutkowska M., Ehrich D., <span class='me'>Mundra, S.</span>, Vader A., and Eidesen P.B."
+  venue: "Soil Biology and Biochemistry, 159, 108284 (IF: 5.8)"
+  year: 2021
+
+- title: "The complete genome sequence of Pseudomonas atacamensis strain SM1 and Pseudomonas toyotomiensis strain SM2, isolated from the date palm rhizosphere"
+  authors: "Elmahi Y., Alshamsi M., Sudalaimuthuasari N., Kundu B., AlMaskari R., Hazzouri K., Chandran S., Malik S., <span class='me'>Mundra, S.</span>, and Amiri K."
+  venue: "Microbiology Resource Announcements, 10(18), e00253-21 (IF: 0.8)"
+  year: 2021
+
+# ---------- 2020 ----------
+
+- title: "Glacier retreat in the High Arctic: opportunity or threat for ectomycorrhizal diversity?"
+  authors: "Botnen S.B.# and <span class='me'>Mundra, S.#</span>, Kauserud H., and Eidesen P.B. (#shared first authors)"
+  venue: "FEMS Microbiology Ecology, 96(12), fiab171 (IF: 3.7)"
+  year: 2020
+
+- title: "GlobalFungi: global database of fungal records from high-throughput-sequencing metabarcoding studies"
+  authors: "Větrovský T., Morais D., Kohout P., Lepinay C., Gallardo C.A., Hollá S.A., Bahnmann B.D., Bílohnědá K., Brabcová V., D'Alò F., Human Z.R., Jomura M., Kolařík M., Kvasničková M., Lladó S., López-Mondéjar R., Martinović T., Mašínová T., Meszárošová L., Michalčíková L., Michalová T., <span class='me'>Mundra, S.</span>, Navrátilová D., Odriozola I., Piché-Choquette S., Štursová M., Švec K., Tláskal V., Urbanová M., Vlk L., Voříšková J., Žifčáková L., and Baldrian P."
+  venue: "Scientific Data, 7(1), 1-14 (IF: 5.5)"
+  year: 2020
+
+# ---------- 2019 ----------
+
+- title: "The inhalable mycobiome of sawmill workers: exposure characterization and diversity"
+  authors: "Straumfors A., Foss A.H., Fuss J., Mollerup S., Kauserud H., and <span class='me'>Mundra, S.</span>"
+  venue: "Applied and Environmental Microbiology, 85(21), e01448-19 (IF: 4.0)"
+  year: 2019
+
+- title: "Biogeography of plant root associated fungal communities in the North-Atlantic region mirrors climatic variability"
+  authors: "Botnen S.S., Davey M.L., Aas B.A., Carlsen T., Thoen E., Heegaard E., Vik U., Dresch P., <span class='me'>Mundra, S.</span>, Taylor A.F.S., and Kauserud H."
+  venue: "Journal of Biogeography, 46(7), 1532-1546 (IF: 4.3)"
+  year: 2019
+
+# ---------- 2018 ----------
+
+- title: "Structure and function of the global topsoil microbiome"
+  authors: "Bahram M., Hildebrand F., Forslund K., Anderson J.L., Soudzilovskaia N.A., Bodegom P.M., Anslan S., Bengtsson-Palme J., Coelho L.P., Harend H., Maltz M.R., <span class='me'>Mundra, S.</span>, Olsson P.A., Pent M., Põlme S., Sunagawa S., Ryberg M., Tedersoo L., and Bork P."
+  venue: "Nature, 560, 233-237 (IF: 42.8)"
+  year: 2018
+
+- title: "Dead or alive; or does it really matter? Level of congruency between trophic modes in total and active fungal communities in High Arctic soil"
+  authors: "Wutkowska M., Vader A., <span class='me'>Mundra, S.</span>, Cooper E.J., and Eidesen P.B."
+  venue: "Frontiers in Microbiology, 9, 1-12 (IF: 4.0)"
+  year: 2018
+
+- title: "Exclusion of invertebrates influences saprotrophic fungal community and wood decay rate in an experimental field study"
+  authors: "Jacobsen M.J., Sverdrup-Thygeson A., Kauserud H., <span class='me'>Mundra, S.</span>, and Birkemoe T."
+  venue: "Functional Ecology, 32(11), 2571-2582 (IF: 5.2)"
+  year: 2018
+
+- title: "Pathogen without borders: Sphaerulina populicola is genetically diverse and spreads freely through the host tree's range"
+  authors: "Paul F., Schmitt I., Otte J., <span class='me'>Mundra, S.*</span>, and Bálint M.* (*shared senior authors)"
+  venue: "PeerJ Preprints, 6, e26985v1 (IF: 2.2)"
+  year: 2018
+  links:
+    - { label: "DOI", url: "https://doi.org/10.7287/peerj.preprints.26985v1" }
+
+# ---------- 2017 ----------
+
+- title: "Does warming by open-top chambers induce change in the root-associated fungal community of the arctic dwarf-shrub Cassiope tetragona (Ericaceae)?"
+  authors: "Lorberau K., Botnen S.S., <span class='me'>Mundra, S.</span>, Aas A.B., Rozema J., Eidesen P.B., and Kauserud H."
+  venue: "Mycorrhiza, 27(5), 513-524 (IF: 3.5)"
+  year: 2017
+
+# ---------- 2016 ----------
+
+- title: "Alpine bistort (Bistorta vivipara) in edge habitats associates with fewer but distinct ectomycorrhizal fungal species: a comparative study of three contrasting soil environments in Svalbard"
+  authors: "<span class='me'>Mundra, S.</span>, Bahram M., and Eidesen P.B."
+  venue: "Mycorrhiza, 26(8), 809-818 (IF: 3.5)"
+  year: 2016
+
+- title: "Ectomycorrhizal and saprotrophic fungi respond differently to long-term experimentally increased snow depth in the High-Arctic Archipelago Svalbard"
+  authors: "<span class='me'>Mundra, S.</span>, Halvorsen R., Kauserud H., Bahram M., Tedersoo L., Elberling B., Cooper E.J., and Eidesen P.B."
+  venue: "MicrobiologyOpen, 5(5), 856-869 (IF: 2.4)"
+  year: 2016
+
+# ---------- 2015 ----------
+
+- title: "Temporal variation of Bistorta vivipara-associated ectomycorrhizal fungal communities in the High-Arctic"
+  authors: "<span class='me'>Mundra, S.</span>, Bahram M., Tedersoo L., Kauserud H., Halvorsen R., and Eidesen P.B."
+  venue: "Molecular Ecology, 24, 6289-6302 (IF: 6.5)"
+  year: 2015
+
+# ---------- 2014 ----------
+
+- title: "Arctic fungal communities associated with roots of Bistorta vivipara do not respond to the same fine-scale edaphic gradients as the above-ground vegetation"
+  authors: "<span class='me'>Mundra, S.</span>, Halvorsen R., Kauserud H., Muller E., Vik U., and Eidesen P.B."
+  venue: "New Phytologist, 205(4), 1587-1597 (IF: 7.7)"
+  year: 2014
+
+# ---------- 2012 ----------
+
+- title: "Antimicrobial activity of seed, pomace and leaf extracts of sea buckthorn (Hippophae rhamnoides L.) against foodborne and food spoilage pathogens"
+  authors: "Arora R., <span class='me'>Mundra, S.</span>, Yadav A., Srivastava R.B., and Stobdan T."
+  venue: "African Journal of Biotechnology, 11(45), 10424-10430 (IF: 0.9)"
+  year: 2012
+
+- title: "Chhang: barley based alcoholic beverage of Ladakh, India"
+  authors: "Targais K., Stobdan T., <span class='me'>Mundra, S.</span>, Ali Z., Yadav A., Korekar G., and Singh S.B."
+  venue: "Indian Journal of Traditional Knowledge, 11(1), 190-193 (IF: 0.4)"
+  year: 2012
+
+# ---------- 2011 ----------
+
+- title: "Solubilization of insoluble inorganic phosphates by a novel temperature-, pH-, and salt-tolerant yeast, Rhodotorula sp. PS4, isolated from seabuckthorn rhizosphere, growing in cold desert of Ladakh, India"
+  authors: "<span class='me'>Mundra, S.</span>, Arora R., and Stobdan T."
+  venue: "World Journal of Microbiology and Biotechnology, 27, 2387-2396 (IF: 1.9)"
+  year: 2011
+
+- title: "Quality attributes of seabuckthorn (Hippophae rhamnoides L.) squash during storage"
+  authors: "Ali Z., Korekar G., <span class='me'>Mundra, S.</span>, Yadav A., and Stobdan T."
+  venue: "Indian Journal of Horticulture, 64(4), 479-483 (IF: 0.2)"
+  year: 2011
+
+# ---------- 2010 ----------
+
+- title: "Attributes of Seabuckthorn (Hippophae rhamnoides L.) to meet nutritional requirements in high altitude"
+  authors: "Stobdan T., Chaurasia O.P., Korekar G., <span class='me'>Mundra, S.</span>, Ali Z., Yadav A., and Singh S.B."
+  venue: "Defence Science Journal, 60(2), 226-230 (IF: 0.3)"
+  year: 2010
