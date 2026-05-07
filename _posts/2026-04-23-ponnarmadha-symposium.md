@@ -7,8 +7,8 @@ Congratulations to Ponnarmadha Subramani, who presented her work on **a novel su
 
 The presented research highlights a circular-bioeconomy approach: using date hydrolysate as a cost-effective carbon source for cellulose-producing bacteria, refining fermentation parameters for optimal yield, and developing a novel bioreactor design that increases the air–interfacial area for higher production rates. A key applied outcome is a temperature-responsive bacterial cellulose hydrogel container for plant growth — a tool with real potential for water-efficient agriculture in arid climates.
 
-![Ponnarmadha presenting her biocellulose poster at the UAEU Symposium]({{ '/assets/images/ponnarmadha-symposium-01.jpg' | relative_url }})
+![Ponnarmadha presenting her biocellulose poster at the UAEU Symposium]({{ '/assets/images/ponnarmadha-symposium-01.jpeg' | relative_url }})
 
-![Ponnarmadha discussing her research with attendees]({{ '/assets/images/ponnarmadha-symposium-02.jpg' | relative_url }})
+![Ponnarmadha discussing her research with attendees]({{ '/assets/images/ponnarmadha-symposium-02.jpeg' | relative_url }})
 
 Well done, Ponnarmadha! 
