@@ -18,28 +18,56 @@ permalink: /team/
 
 <section class="section">
   <div class="wrap">
-    {% assign roles = "PI|Postdoc|PhD Student|Master's Student|Research Assistant|Undergraduate|Lab Manager|Alumni" | split: "|" %}
-    {% for role in roles %}
-      {% assign people = site.team | where: "role", role %}
-      {% if people.size > 0 %}
-        <h2 class="role-heading">{{ role }}{% if people.size > 1 and role != "Alumni" %}s{% endif %}</h2>
-        <div class="team-grid">
-          {% for p in people %}
-            <a href="{{ p.url | relative_url }}" class="team-card">
-              <div class="team-card-photo">
-                {% if p.photo %}
-                  <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
-                {% else %}
-                  <span class="team-card-initial">{{ p.name | slice: 0, 1 }}</span>
-                {% endif %}
-              </div>
-              <h3 class="team-card-name">{{ p.name }}</h3>
-              <p class="team-card-role">{{ p.role }}{% if p.subtitle %} &middot; {{ p.subtitle }}{% endif %}</p>
-              {% if p.tagline %}<p class="team-card-tag">{{ p.tagline }}</p>{% endif %}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
-    {% endfor %}
+  {% assign roles = "PI|Postdoc|PhD Student|Master's Student|Research Assistant|Undergraduate|Lab Manager" | split: "|" %}
+{% for role in roles %}
+  {% assign people = site.team | where: "role", role %}
+  {% if people.size > 0 %}
+    <h2 class="role-heading">{{ role }}{% if people.size > 1 %}s{% endif %}</h2>
+    <div class="team-grid">
+      {% for p in people %}
+        <a href="{{ p.url | relative_url }}" class="team-card">
+          <div class="team-card-photo">
+            {% if p.photo %}
+              <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
+            {% else %}
+              <span class="team-card-initial">{{ p.name | slice: 0, 1 }}</span>
+            {% endif %}
+          </div>
+          <h3 class="team-card-name">{{ p.name }}</h3>
+          <p class="team-card-role">{{ p.role }}{% if p.subtitle %} &middot; {{ p.subtitle }}{% endif %}</p>
+          {% if p.tagline %}<p class="team-card-tag">{{ p.tagline }}</p>{% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% assign alumni = site.team | where: "role", "Alumni" %}
+{% if alumni.size > 0 %}
+  <h2 class="role-heading" style="margin-top:4rem;">Alumni</h2>
+  {% assign alumni_roles = "Postdoc|PhD Student|Master's Student|Research Assistant|Undergraduate|Lab Manager" | split: "|" %}
+  {% for arole in alumni_roles %}
+    {% assign group = alumni | where: "alumni_role", arole %}
+    {% if group.size > 0 %}
+      <h3 class="alumni-subheading">Former {{ arole }}{% if group.size > 1 %}s{% endif %}</h3>
+      <div class="team-grid">
+        {% for p in group %}
+          <a href="{{ p.url | relative_url }}" class="team-card">
+            <div class="team-card-photo">
+              {% if p.photo %}
+                <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
+              {% else %}
+                <span class="team-card-initial">{{ p.name | slice: 0, 1 }}</span>
+              {% endif %}
+            </div>
+            <h3 class="team-card-name">{{ p.name }}</h3>
+            <p class="team-card-role">Alumni &middot; Former {{ p.alumni_role }}</p>
+            {% if p.tagline %}<p class="team-card-tag">{{ p.tagline }}</p>{% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endif %}
   </div>
 </section>
