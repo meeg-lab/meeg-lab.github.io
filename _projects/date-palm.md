@@ -1,5 +1,5 @@
 ---
-title: "Date Palm"
+title: "Date Palm Microbiome"
 area: "Arid agroecosystems"
 order: 1
 lede: "Mycorrhizal and endophyte interactions in date palm rhizospheres under saline irrigation across UAE agroecosystems."
