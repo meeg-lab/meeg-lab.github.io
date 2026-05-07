@@ -1,7 +1,7 @@
 ---
 name: "Huda Al Shalan"
 role: "Alumni"
-subtitle: "Master's Student"
+alumni_role:  "Master's Student"
 tagline: "Mangrove Ecology, Microbiome Analysis and Satellite Remote-Sensing"
 photo: "assets/images/WhatsApp Image 2026-05-07 at 13.40.18.jpeg"
 order: 7
