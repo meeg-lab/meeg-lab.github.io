@@ -1,5 +1,5 @@
 ---
-title: "Mangroves and Wetlands"
+title: "Mangroves and Sabkhas"
 area: "Coastal ecosystems"
 order: 2
 lede: "Microbial communities of UAE mangrove sediments and their role in coastal ecosystem function."
