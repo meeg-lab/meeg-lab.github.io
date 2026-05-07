@@ -1,6 +1,6 @@
 ---
 name: "Ponnarmadha Submurani"
-role: "PhD"
+role: "PhD Student"
 subtitle: "Ecology"
 tagline: "Cellulose."
 photo: "/assets/images/female-icon.avif"
