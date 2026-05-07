@@ -1,6 +1,7 @@
 ---
 name: "Nesma Ait Belkacem"
 role: "PhD Student"
+subtitle: "Cellular and Molecular Biology"
 tagline: "Boreal Forest Microbiome, Antimicrobial Resistance in Arid Soils and Institutional Research in the Life Sciences"
 photo: "/assets/images/nesma.jpg"
 order: 8
