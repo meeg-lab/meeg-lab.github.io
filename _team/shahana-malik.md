@@ -1,7 +1,7 @@
 ---
 name: "Shahana Sehar Malik"
 role: "Alumni"
-subtitle: "PhD Student"
+alumni_role:  "PhD Student"
 tagline: "Wastewater microbiomes and the spread of antimicrobial resistance."
 photo: "/assets/images/shahana-malik.jpg"
 order: 4
