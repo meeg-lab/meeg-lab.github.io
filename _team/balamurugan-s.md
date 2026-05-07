@@ -1,7 +1,7 @@
 ---
 name: "Dr. Balamurugan Sadaiappan"
 role: "Postdoc"
-tagline: "Marine, mangrove and sabkha microbiom ."
+tagline: "Marine, mangrove and sabkha microbiomes."
 email: "balamurugan@uaeu.ac.ae"
 photo: "/assets/images/balamurugan-sadaiappan.jpg"
 order: 3
