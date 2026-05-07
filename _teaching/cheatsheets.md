@@ -1,5 +1,5 @@
 ---
-title: "Resources: Cheat Sheets to Workflow Guides"
+title: Cheat Sheets to Workflow Guides"
 kind: "Resources"
 level: "All levels"
 lede: "One-page references for the tools we use in every project: Git, Snakemake, Conda, Quarto."
