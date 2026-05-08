@@ -1,11 +1,9 @@
 ---
 name: "Dr. Qurban Ali"
 role: "Postdoc"
-tagline: "Salinity stress and date palm fungal communities."
-photo: "/assets/images/qurban-ali.jpg"
+tagline: "Microbiome-Mediated Plant Stress Resilience."
+photo: "/assets/images/Screenshot 2026-05-08 at 15.39.09.png"
 order: 3
 ---
 
-Dr Qurban Ali is a plant microbiology and biofertilizer researcher at the MEEG lab, with expertise in soil microbiology, plant–microbe interactions, and plant pathology. His scholarly profile highlights strong impact in microbial diversity, host–pathogen interaction, and sustainable crop protection, with more than 3,800 citations, an h-index of 31, and an i10-index of 57 on Google Scholar.
-
-He has contributed to widely cited work on biocontrol agents, plant growth-promoting rhizobacteria, stress tolerance, and genome-enabled disease resistance, reflecting a research focus on practical solutions for improving crop health and resilience. His publication record shows active collaboration across topics such as microbial biocontrol, salinity and drought tolerance, and sustainable agriculture, positioning him as a researcher working at the interface of microbiology and crop protection.
+Currently, I am working as a Postdoctoral Fellow on the COP28 Climate Action project, funded by the Research Council of UAEU at the Department of Biology, College of Science. I earned a Ph.D. in Molecular Plant Pathology in 2023 from the College of Plant Protection, Nanjing Agricultural University, China. In my research, I integrate plant pathology and microbial ecology to investigate mutualistic plant-microbiome interactions driving plant health and stress resistance. My research primarily focuses on understanding the structure and function of the plant microbiome, its role in plant health, and the mechanisms underlying microbe–microbe and plant–microbe interactions that enhance plant resilience to biotic and abiotic stresses.
