@@ -3,7 +3,7 @@ name: "Dr. Amina Ilyas"
 role: "Postdoc"
 tagline: "Crop improvement, plant growth promotion, and sustainable agriculture."
 email: "amina.ilyas@uaeu.ac.ae"
-photo: "/assets/images/amina-ilyas.jpg"
+photo: "/assets/images/AMINA-ILYAS.png"
 order: 3
 ---
 
