@@ -1,11 +1,13 @@
 ---
 name: "Dr. Balamurugan Sadaiappan"
 role: "Alumni"
+alumni_role: "Former Postdoc"
 tagline: "Marine, mangrove and sabkha microbiomes."
 email: "balamurugan.s@uaeu.ac.ae"
 photo: "/assets/images/bala-s.jpeg"
 order: 3
 ---
+
 
 Balamurugan is a microbial ecologist whose work bridges marine biology, environmental genomics, and computational microbiome analysis. His research has spanned mangrove sediments, coral reefs, the Southern Ocean, and copepod-associated bacterial communities, with a methodological focus on high-throughput sequencing and machine learning applied to ecological microbiome data.
 
