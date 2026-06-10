@@ -1,7 +1,7 @@
 ---
 name: "Dr. Amina Ilyas"
 role: "Alumni"
-alumni_role: "Former Postdoc"
+alumni_role: "Former Postdocs"
 tagline: "Plant Physiology, Plant–Microbe Interaction Mechanisms, Climate Change, Biocontrol and Biostimulant Development"
 email: "amina.ilyas@uaeu.ac.ae" 
 photo: ""
