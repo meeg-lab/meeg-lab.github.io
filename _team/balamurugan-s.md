@@ -1,7 +1,7 @@
 ---
 name: "Dr. Balamurugan Sadaiappan"
 role: "Alumni"
-alumni_role: "Former Postdoc"
+alumni_role: "Former Postdocs"
 tagline: "Marine, mangrove and sabkha microbiomes."
 email: "balamurugan.s@uaeu.ac.ae"
 photo: "/assets/images/bala-s.jpeg"
