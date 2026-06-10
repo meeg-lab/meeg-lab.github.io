@@ -1,6 +1,6 @@
 ---
 name: "Dr. Amina Ilyas"
-role: "Postdoc"
+role: "Alumni"
 tagline: "Plant Physiology, Plant–Microbe Interaction Mechanisms, Climate Change, Biocontrol and Biostimulant Development"
 email: "amina.ilyas@uaeu.ac.ae" 
 photo: "/assets/images/AMINA-ILYAS.png"
