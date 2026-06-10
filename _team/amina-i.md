@@ -3,7 +3,7 @@ name: "Dr. Amina Ilyas"
 role: "Alumni"
 tagline: "Plant Physiology, Plant–Microbe Interaction Mechanisms, Climate Change, Biocontrol and Biostimulant Development"
 email: "amina.ilyas@uaeu.ac.ae" 
-photo: "/assets/images/AMINA-ILYAS.png"
+photo: ""
 order: 3
 ---
 
