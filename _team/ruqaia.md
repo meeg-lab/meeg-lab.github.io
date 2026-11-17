@@ -1,9 +1,9 @@
 ---
-name: "Ruqaia"
+name: "Ruqaia Fayez Al Shami"
 role: "Research Assistant"
 tagline: "Fungal Specialist"
-email: "placeholder@uaeu.ac.ae" 
-photo: ""
+email: "ruqaia.alshami01@gmail.com" 
+photo: "assets/images/PHOTO-2026-11-17-16-10-43.jpg"
 order: 3
 ---
 
