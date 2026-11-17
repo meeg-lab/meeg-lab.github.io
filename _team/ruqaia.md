@@ -7,4 +7,4 @@ photo: ""
 order: 3
 ---
 
-Ruqaia is a fungal specialist who has just joined as a research assistant at the MEEG lab.
+I hold an MSc. in pharmaceutical sciences with growing research interest in microbial diversity in different ecologies, microbial natural derived products, and their potential applications. My research interests focus on exploring microorganisms in different habitats, understanding their biological and chemical diversity, and investigating their potential as sources of bioactive metabolites.
